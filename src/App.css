@@ -1,3 +1,7 @@
+* {
+  font-family: 'Google Sans', Arial, Helvetica, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -20,4 +24,30 @@
 
 .App-intro {
   font-size: large;
+}
+
+input { 
+  height: 20px;
+  width: 130px;
+  border-radius: 5px;
+  border: 1px rgb(76, 228, 157) solid;
+  font-size: 15px;
+  padding: 10px;
+}
+
+button {
+  background: rgb(76, 228, 157);
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(20, 199, 116);
+  color: #fff;
 }
